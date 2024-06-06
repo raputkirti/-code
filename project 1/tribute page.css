@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:content-box;
+}
+.container {
+    background:linear-gradient(#fed8d8,rgb(202, 117, 117)) ;
+    min-height: 200vh;
+    margin-inline-end: auto;
+    border: 10PX solid #1D1E4C;
+    border-bottom: 20px;
+    
+}
+.content{
+    max-height: 900px;
+    margin: 0 auto;
+}
+.top_section{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.image_container{
+    border-radius: 30%;
+   }
+.image_container,
+img{
+    width: 300px;
+    display: flex;
+    height:400px;
+    float:right;
+    margin: 10px;
+    text-size-adjust: 30px;
+}
+.about_section{
+    margin-top: 50px;
+}
+.about_section h2{
+    font-size: 40px;
+    font-weight: 40;
+    margin-bottom: 10px;
+    text-align: center;
+    padding-top: 50px;
+}
+.about_section p {
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 2px;
+    text-align: justify;
+    padding-right: 50px;
+    margin: 20px;
+}
+.biography_section{
+    margin-bottom: 50px;
+}
+.biography_section h3{
+    margin-left: 20px;
+    padding-top: 20px;
+}
+.biography_section ul {
+    margin-left: 50px;
+    padding-top: 20px;
+}
+.biography_section li{
+    margin-bottom: 15px;
+}
+.Achievment_section{
+    margin-bottom: 50px;
+}
+.Achievment_section h5{
+    margin-left: 20px;
+    padding-top: 10px;
+   font-size: 20px;
+}
+.Achievment_section ul{
+    margin-left: 50px;
+    padding-top: 20px;
+}
+.Achievment_section li{
+    margin-bottom: 15px;
+}
+footer{
+    margin: 50px 0;
+
+}
+footer p{
+    text-align: end;
+    padding-top: 10px;
+    margin-top: auto;
+}
+
